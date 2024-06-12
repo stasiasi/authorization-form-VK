@@ -34,6 +34,9 @@ body{
     border-width: 0;
     padding: 10px 0;
     margin: 8px 0 24px;
+    &:hover{
+        cursor: pointer;
+    }
 }
 .login-form__button-content{
     width: 100%;
@@ -57,16 +60,34 @@ body{
 }
 .checkbox-save{
     transform:scale(1.23);
+    &:hover{
+        cursor: pointer;
+    }
 }
 .checkbox-save__text{ 
     display: block;
     margin: -5px 4px  0 6px;
     color: #818C99;
     font-weight: 400;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.checbox-save__tip{
+    &:hover .st0 {
+        fill: #818C99;
+      }
 }
 .qr-panel{
     display: flex;
     padding-top: 20px;
+}
+.qr-panel__img{
+    width: 68px;
+    height: 68px;
+    &:hover{
+        cursor: pointer;
+    }
 }
 .qr-panel__info-container{
     display: flex;
@@ -84,4 +105,7 @@ body{
 .qr-panel__link{
     color: #2D81E0;
     text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
 }
