@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+    font-size: 13px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.login-form{
+    padding: 32px 24px;
+    border-radius: 12px;
+    background-color: white;
+}
+.login-form__input{
+    width: 100%;
+    padding: 8px 12px;
+    margin: 0 0 20px;
+    border-radius: 8px;
+    border-width: 0.8px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+}
+.login-form__button{
+    width: 100%;
+    background-color: #4177B5;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 10px 0;
+    margin: 8px 0 24px;
+}
+.login-form__button-content{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo__title{
+    font-size: 20px;
+    margin: 16px 0 20px;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+}
+.checkbox-save{
+    transform:scale(1.23);
+}
+.checkbox-save__text{ 
+    display: block;
+    margin: -5px 4px  0 6px;
+    color: #818C99;
+    font-weight: 400;
+}
+.qr-panel{
+    display: flex;
+    padding-top: 20px;
+}
+.qr-panel__info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 0 4px 8px;
+}
+.qr-panel__title{
+    font-size: 14px;
+    font-weight: 500;
+}
+.qr-panel__instruction{
+    color: #6D7885;
+}
+.qr-panel__link{
+    color: #2D81E0;
+    text-decoration: none;
+}
