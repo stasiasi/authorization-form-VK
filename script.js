@@ -1,5 +1,5 @@
-const checkboxSave = document.querySelector('.checkbox-save');
-const loginButton = document.querySelector('.login-form__button');
+const checkboxSave = document.getElementById('cb-save');
+const loginButton = document.querySelector('.login-form__sig-in');
 
 loginButton.addEventListener('click', function(event) {
     event.preventDefault();
